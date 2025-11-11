@@ -10,10 +10,10 @@ export const Hero = () => {
                         <h1 className="font-recoleta md:text-5xl text-3xl text-center md:text-start font-black md:leading-14 leading-10">Light For the Moments <br /> That Feel Heavy</h1>
                         <p className="md:text-xl text-center md:text-start font-inter text-gray-500 md:leading-8 py-6">Lume helps you track emotions, talk through your thoughts, and find balance again.</p>
                         <div className="flex flex-col md:flex-row items-center gap-4 font-inter">
-                            <Button className="bg-purple-600 md:w-[155px] w-full px-6 text-white py-3 rounded-full hover:bg-purple-700 transition">
+                            <Button className="bg-[#5144EA] md:w-[155px] w-full px-6 text-white py-3 rounded-full hover:bg-[#5144EA] transition">
                                 Try Lume Free
                             </Button>
-                            <Button className="border w-full md:w-[205px] border-gray-400 px-6 py-2 text-gray-700 rounded-full hover:border-purple-600 transition">
+                            <Button className="border w-full md:w-[205px] border-gray-400 px-6 py-2 text-gray-700 rounded-full hover:border-[#5144EA] transition">
                                 See How Lume Works
                             </Button>
                         </div>
