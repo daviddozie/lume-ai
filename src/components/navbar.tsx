@@ -142,14 +142,9 @@ export const Navbar = () => {
                             )
                         })}
 
-                        <div className="flex flex-col gap-4 mt-6">
-                            <Button className="border border-gray-400 px-4 py-2 text-gray-700 rounded-full hover:border-[#5144EA] transition">
-                                Sign In
-                            </Button>
-                            <Button className="bg-[#5144EA] px-6 text-white py-3 rounded-full hover:bg-[#5144EA] transition">
-                                Get Started
-                            </Button>
-                        </div>
+                        <Button className="bg-[#5144EA] px-6 text-white py-3 rounded-full hover:bg-[#5144EA] transition">
+                            Log In
+                        </Button>
                     </motion.nav>
                 )}
             </AnimatePresence>
