@@ -25,7 +25,6 @@ export const metadata: Metadata = {
     "Lume is an AI-powered platform for meditation, learning, and training. Explore interactive content, enhance productivity, and grow your skills efficiently.",
   keywords: ["AI", "Meditation", "Learning", "Training", "Productivity", "Online Learning"],
   authors: [{ name: "David", url: "https://github.com/daviddozie" }],
-  themeColor: "#7C3AED",
   metadataBase: new URL("https://lume--ai.vercel.app"),
   robots: { index: true, follow: true },
   openGraph: {
@@ -58,6 +57,10 @@ export const metadata: Metadata = {
     apple: "/apple-touch-icon.png",
     shortcut: "/favicon-16x16.png",
   },
+};
+
+export const viewport = {
+  themeColor: "#7C3AED",
 };
 
 export default function RootLayout({
