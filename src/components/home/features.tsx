@@ -41,7 +41,7 @@ export const Features = () => {
         <div className="md:pt-13 pt-4 w-[90%] mx-auto">
             <div className="max-w-[560px] mx-auto">
                 <h1 className="text-center uppercase text-sm font-medium text-[#111114] font-inter">Our Features</h1>
-                <h1 className="text-2xl md:pb-6 md:pt-4 py-2 text-[#111114] font-recoleta font-semibold text-center">Every Feature, Designed To Listen</h1>
+                <h1 className="text-2xl md:pb-4 py-2 text-[#111114] font-recoleta font-semibold text-center">Every Feature, Designed To Listen</h1>
                 <p className="text-[#696974] text-center leading-5 font-inter">Lume learns your moods, understands your patterns, and offers the right care, exactly when you need it.</p>
             </div>
 
