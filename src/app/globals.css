@@ -1,5 +1,8 @@
 @import "tailwindcss";
 @import "tw-animate-css";
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
 
 @custom-variant dark (&:is(.dark *));
 
@@ -7,9 +10,63 @@
   font-family: "Inter", sans-serif;
 }
 
-
 .font-recoleta {
   font-family: var(--font-recoleta), sans-serif;
+}
+
+.gradient-overlay {
+  background: linear-gradient(180.53deg, #070338 17.11%, #140F54 64.72%, #120A74 96.77%);
+}
+
+/* 🚀 Base dot container */
+.custom-dots {
+  bottom: -45px !important;
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+/* Remove default slick spacing */
+.custom-dots li {
+  margin: 0 4px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  height: 8px !important;
+}
+
+.custom-dots li button {
+  height: 8px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 0 !important;
+}
+
+/* 🔘 Inactive dot: small, round, gray */
+.custom-dots li button:before {
+  content: '•' !important;
+  font-size: 10px !important;
+  opacity: 1 !important;
+  color: #DCD9FF !important;
+  transition: all 0.3s ease !important;
+  width: 10px !important;
+  height: 10px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  line-height: 1 !important;
+}
+
+/* 🔵 Active dot: long pill, blue */
+.custom-dots li.slick-active button:before {
+  content: '' !important;
+  width: 24px !important;
+  height: 8px !important;
+  background-color: #5144EA !important;
+  border-radius: 4px !important;
+  line-height: 1 !important;
 }
 
 
@@ -126,7 +183,9 @@
   * {
     @apply border-border outline-ring/50;
   }
+
   body {
     @apply bg-background text-foreground;
+    overflow-x: hidden;
   }
 }

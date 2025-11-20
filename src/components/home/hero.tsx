@@ -87,7 +87,7 @@ export const Hero = () => {
                     </motion.p>
 
                     <div className="flex flex-col md:flex-row items-center gap-4 font-inter">
-                        <motion.div whileHover={{ scale: 1.02 }} className="w-full">
+                        <motion.div whileHover={{ scale: 1.02 }} className="w-full flex-1">
                             <Button className="bg-[#5144EA] md:w-[155px] w-full px-6 text-white py-3 rounded-full hover:bg-[#5144EA] transition">
                                 Try Lume Free
                             </Button>
