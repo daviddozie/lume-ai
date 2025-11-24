@@ -30,6 +30,10 @@
   background: linear-gradient(180.53deg, #070338 17.11%, #140F54 64.72%, #120A74 96.77%);
 }
 
+.bg-overlay {
+  background-color: #5144EA;
+}
+
 /* 🚀 Base dot container */
 .custom-dots {
   bottom: -45px !important;

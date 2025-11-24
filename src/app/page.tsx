@@ -4,7 +4,7 @@ import { Features } from "@/components/home/features";
 import { HowItWorks } from "@/components/home/how-it-works";
 import { Pricing } from "@/components/pricing";
 import { FAQ } from "@/components/home/faq";
-import { Download } from "@/components/home/download";
+import { Download } from "@/components/download";
 import { Footer } from "@/components/footer";
 
 export default function Home() {
