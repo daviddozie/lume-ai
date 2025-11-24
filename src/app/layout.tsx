@@ -30,12 +30,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Lume - AI-powered Learning & Training Platform",
     description:
-      "Lume is an AI-powered platform for meditation, learning, and training. Explore interactive content, enhance productivity, and grow your skills efficiently.",
+      "Lume is an AI-powered platform for meditation, learning, and training.",
     url: "https://lume--ai.vercel.app",
     siteName: "Lume",
     images: [
       {
-        url: "https://lume--ai.vercel.app/_next/image?url=%2FLume-Logo.png&w=128&q=75",
+        url: "https://lume--ai.vercel.app/Lume-Preview.png",
         width: 1200,
         height: 630,
         alt: "Lume - AI-powered Learning Platform",
@@ -48,10 +48,11 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Lume - AI-powered Learning & Training Platform",
     description:
-      "Lume is an AI-powered platform for meditation, learning, and training. Explore interactive content, enhance productivity, and grow your skills efficiently.",
-    images: ["https://lume--ai.vercel.app/_next/image?url=%2FLume-Logo.png&w=128&q=75"],
+      "Lume is an AI-powered platform for meditation, learning, and training.",
+    images: ["https://lume--ai.vercel.app/Lume-Preview.png"],
     creator: "@daviddozie",
   },
+
   icons: {
     icon: "Logo-icon.svg",
     apple: "/apple-touch-icon.png",
