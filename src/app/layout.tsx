@@ -53,7 +53,7 @@ export const metadata: Metadata = {
     creator: "@daviddozie",
   },
   icons: {
-    icon: "https://lume--ai.vercel.app/_next/image?url=%2FLume-Logo.png&w=128&q=75",
+    icon: "Logo-icon.svg",
     apple: "/apple-touch-icon.png",
     shortcut: "/favicon-16x16.png",
   },
