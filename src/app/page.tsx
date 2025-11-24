@@ -5,6 +5,7 @@ import { HowItWorks } from "@/components/home/how-it-works";
 import { Pricing } from "@/components/pricing";
 import { FAQ } from "@/components/home/faq";
 import { Download } from "@/components/home/download";
+import { Footer } from "@/components/footer";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Pricing />
       <FAQ />
       <Download />
+      <Footer />
     </div>
   );
 }

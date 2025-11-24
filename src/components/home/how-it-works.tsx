@@ -63,9 +63,7 @@ export const HowItWorks = () => {
                 <Slider {...settings}>
                     {listFAQs.map((faq, index) => (
                         <div key={index}>
-                            <div className="shadow-[-2px_-2px_12px_6px_#00000014] 
-                                drop-shadow-[0px_4px_7.7px_0px_#00000021] bg-[#FBFDFF]
-                                w-full rounded-3xl p-6">
+                            <div className=" border border-[#f7f7f7]  bg-[#FBFDFF] w-full rounded-3xl p-6">
 
                                 <Image
                                     src={faq.visual}

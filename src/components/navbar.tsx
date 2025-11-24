@@ -76,7 +76,7 @@ export const Navbar = () => {
                 <div className="flex items-center gap-2">
                     <a href="/">
                         <Image
-                            src="/Lume-Logo.png"
+                            src="/Lume-Logo.svg"
                             alt="Lume Logo"
                             width={100}
                             height={100}
@@ -92,7 +92,7 @@ export const Navbar = () => {
                             <a
                                 key={link.name}
                                 href={link.href}
-                                className={`transition-colors ${isActive ? "text-black" : "text-gray-700"}`}
+                                className={`transition-colors hover:text-[#5144EA] ${isActive ? "text-black" : "text-gray-700"}`}
                             >
                                 {link.name}
                             </a>
