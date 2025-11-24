@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     siteName: "Lume",
     images: [
       {
-        url: "https://lume--ai.vercel.app/Lume-Preview.png",
+        url: "https://lume--ai.vercel.app/images/phone-frame.png",
         width: 1200,
         height: 630,
         alt: "Lume - AI-powered Learning Platform",
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     title: "Lume - AI-powered Learning & Training Platform",
     description:
       "Lume is an AI-powered platform for meditation, learning, and training.",
-    images: ["https://lume--ai.vercel.app/Lume-Preview.png"],
+    images: ["https://lume--ai.vercel.app/images/phone-frame.png"],
     creator: "@daviddozie",
   },
 
