@@ -136,7 +136,7 @@ export const Navbar = () => {
                                     href={link.href}
                                     className={`font-medium text-sm hover:text-[#5144EA] ${isActive ? "text-black" : "text-gray-700"}`}
                                     onClick={() => setIsOpen(false)}
-                                >t
+                                >
                                     {link.name}
                                 </a>
                             )
