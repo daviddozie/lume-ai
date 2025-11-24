@@ -122,8 +122,9 @@ export const Footer = () => {
                             </li>
                         </ul>
                     </div>
+                    {/* mobile */}
                     <div className="flex justify-between w-full gap-10 md:hidden">
-                        <ul className="">
+                        <ul className="max-w-[140px]">
                             <p className="font-recoleta font-semibold text-[18px] text-[#111114] mb-4">Contact</p>
                             <li className="font-inter text-[#111114] py-2">
                                 306, Adrain street, New <br />York, United States.
@@ -142,8 +143,8 @@ export const Footer = () => {
                                 ))}
                             </li>
                         </ul>
-                        <ul>
-                            <p className="font-recoleta font-semibold text-[18px] text-[#111114] mb-4">Legal</p>
+                        <ul className="max-w-[140px]">
+                            <p className="font-recoleta font-semibold text-[18px] text-[#111114] mb-4 ">Legal</p>
                             <li className="font-inter text-[#111114] py-2">
                                 Terms of service
                             </li>
