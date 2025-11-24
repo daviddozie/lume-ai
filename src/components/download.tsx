@@ -16,7 +16,7 @@ export const Download = () => {
                         <div className="mt-8 flex items-center md:gap-6 gap-2 w-full ">
                             <Button className="border-2 border-[#3322FC] w-[180px] text-[#F7F7FF] font-semibold font-inter bg-[#5144EA] py-2.5 md:px-[15px] px-2 rounded-[50px] h-[50xp] md:w-[223px] shadow-[inset_0px_4px_4px_0px_#1907F180] text-xs md:text-base">
                                 Download App
-                                <div className="noise py-1.5 md:px-2.5 px-2 h-[30px] bg w-[60px] flex items-center gap-2 md:gap-4 rounded-[50px]">
+                                <div className="noise py-1.5 md:px-2.5 px-2 h-[30px] bg md:w-[70px] w-[60px] flex items-center gap-2 md:gap-4 rounded-[50px]">
                                     <Image src={AppleStoreIcon} alt="apple-icon" />
                                     <Image src={GoogleStoreIcon} alt="google-icon" />
                                 </div>
