@@ -92,7 +92,7 @@ export const Navbar = () => {
                             <a
                                 key={link.name}
                                 href={link.href}
-                                className={`transition-colors hover:text-[#5144EA] ${isActive ? "text-black" : "text-gray-700"}`}
+                                className={`transition-colors font-medium hover:text-[#5144EA] ${isActive ? "text-[#111114]" : "text-[#696974]"}`}
                             >
                                 {link.name}
                             </a>
@@ -101,7 +101,7 @@ export const Navbar = () => {
                 </nav>
 
                 <div className="hidden md:flex items-center gap-4">
-                    <Button className="border border-gray-400 px-4 py-2 text-gray-700 rounded-full hover:border-[#5144EA] transition">
+                    <Button className="border border-[#A0A0A7] px-4 py-2 text-[#696974] rounded-full hover:border-[#5144EA] transition">
                         Sign In
                     </Button>
                     <Button className="bg-[#5144EA] text-white py-3 rounded-full hover:bg-[#5144EA] transition">
@@ -134,7 +134,7 @@ export const Navbar = () => {
                                 <a
                                     key={link.name}
                                     href={link.href}
-                                    className={`font-medium text-sm hover:text-[#5144EA] ${isActive ? "text-black" : "text-gray-700"}`}
+                                    className={`font-medium text-sm hover:text-[#5144EA] ${isActive ? "text-[#111114]" : "text-[#696974]"}`}
                                     onClick={() => setIsOpen(false)}
                                 >
                                     {link.name}
